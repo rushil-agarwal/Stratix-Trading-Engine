@@ -1,0 +1,74 @@
+2025-12-28 23:55:38,446 | INFO | Fetching historical data to initialize strategy indicators...
+2025-12-28 23:55:39,757 | INFO | Strategy initialized with 100 1h bars and 50 15m bars
+2025-12-28 23:55:40,941 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-28T22:30:00 | O=2942.7200 H=2950.9500 L=2942.7100 C=2945.8800 V=148.4242
+2025-12-28 23:55:41,461 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-28T23:30:00 | O=2945.8900 H=2946.3200 L=2941.2000 C=2941.5000 V=37.7286
+2025-12-28 23:55:41,461 | INFO | Signal Generation | Bar=2025-12-28T23:30:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 23:55:41,461 | INFO | cannot access local variable 'time' where it is not associated with a value
+2025-12-28 23:58:08,171 | INFO | Fetching historical data to initialize strategy indicators...
+2025-12-28 23:58:08,886 | INFO | Strategy initialized with 100 1h bars and 50 15m bars
+2025-12-28 23:58:09,896 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-28T22:30:00 | O=2942.7200 H=2950.9500 L=2942.7100 C=2945.8800 V=148.4242
+2025-12-28 23:58:10,533 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-28T23:30:00 | O=2945.8900 H=2946.3200 L=2941.2000 C=2941.5000 V=37.7286
+2025-12-28 23:58:10,533 | INFO | Signal Generation | Bar=2025-12-28T23:30:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 00:00:09,719 | INFO | Fetching historical data to initialize strategy indicators...
+2025-12-29 00:00:10,470 | INFO | Strategy initialized with 100 1h bars and 50 15m bars
+2025-12-29 00:00:11,499 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-28T22:30:00 | O=2942.7200 H=2950.9500 L=2942.7100 C=2945.8800 V=148.4242
+2025-12-29 00:00:11,694 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-28T23:45:00 | O=2941.4900 H=2941.4900 L=2928.5100 C=2936.7500 V=112.5536
+2025-12-29 00:00:11,694 | INFO | Signal Generation | Bar=2025-12-28T23:45:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 00:04:38,804 | INFO | Fetching historical data to initialize strategy indicators...
+2025-12-29 00:04:39,982 | INFO | Strategy initialized with 100 1h bars and 50 15m bars
+2025-12-29 00:04:41,108 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-28T23:30:00 | O=2945.8900 H=2946.3200 L=2928.5100 C=2935.4400 V=184.8536
+2025-12-29 00:04:41,405 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T00:00:00 | O=2936.5100 H=2938.6900 L=2935.4300 C=2935.4400 V=34.5714
+2025-12-29 00:04:41,405 | INFO | Signal Generation | Bar=2025-12-29T00:00:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 00:05:41,932 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-28T23:30:00 | O=2945.8900 H=2946.3200 L=2928.5100 C=2937.6400 V=188.6582
+2025-12-29 00:05:42,445 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T00:00:00 | O=2936.5100 H=2938.6900 L=2935.4300 C=2937.6400 V=38.3760
+2025-12-29 00:05:42,446 | INFO | Signal Generation | Bar=2025-12-29T00:00:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:16:39,420 | INFO | Fetching historical data to initialize strategy indicators...
+2025-12-29 02:16:40,708 | INFO | Strategy initialized with 100 1h bars and 50 15m bars
+2025-12-29 02:16:41,446 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.0500 L=2930.3400 C=2935.9900 V=187.8078
+2025-12-29 02:16:41,927 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2936.0000 L=2935.3800 C=2935.9900 V=0.2578
+2025-12-29 02:16:41,927 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:17:42,475 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.0500 L=2930.3400 C=2935.7200 V=187.9818
+2025-12-29 02:17:43,093 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2936.0000 L=2935.3800 C=2935.7200 V=0.4318
+2025-12-29 02:17:43,095 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:18:43,740 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.0500 L=2930.3400 C=2936.3000 V=192.0108
+2025-12-29 02:18:44,215 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2936.3000 L=2935.3800 C=2936.3000 V=4.4608
+2025-12-29 02:18:44,223 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:19:44,852 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.0500 L=2930.3400 C=2936.2900 V=192.0534
+2025-12-29 02:19:45,045 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2936.3000 L=2935.3800 C=2936.2900 V=4.5034
+2025-12-29 02:19:45,054 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:20:45,561 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.0500 L=2930.3400 C=2936.8900 V=192.3238
+2025-12-29 02:20:45,769 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2936.8900 L=2935.3800 C=2936.8900 V=4.7738
+2025-12-29 02:20:45,777 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:21:46,390 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.5000 L=2930.3400 C=2937.4900 V=192.6767
+2025-12-29 02:21:46,598 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.5000 L=2935.3800 C=2937.4900 V=5.1267
+2025-12-29 02:21:46,606 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:22:47,118 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2936.6700 V=197.7371
+2025-12-29 02:22:47,642 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2935.3800 C=2936.6700 V=10.1871
+2025-12-29 02:22:47,646 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:23:48,187 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2936.5600 V=199.9300
+2025-12-29 02:23:48,768 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2935.3800 C=2936.5600 V=12.3800
+2025-12-29 02:23:48,771 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:24:49,267 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2934.0000 V=214.3778
+2025-12-29 02:24:49,444 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2934.0000 C=2934.0000 V=26.8278
+2025-12-29 02:24:49,444 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:25:50,103 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2933.6400 V=216.4124
+2025-12-29 02:25:50,649 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2933.6300 C=2933.6400 V=28.8624
+2025-12-29 02:25:50,649 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:26:51,249 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2932.9600 V=220.7934
+2025-12-29 02:26:51,546 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2932.8900 C=2932.9600 V=33.2434
+2025-12-29 02:26:51,546 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:27:52,192 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2932.9000 V=222.3674
+2025-12-29 02:27:52,726 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2932.8900 C=2932.9000 V=34.8174
+2025-12-29 02:27:52,735 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:28:53,299 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2932.9000 V=222.3674
+2025-12-29 02:28:53,504 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2932.8900 C=2932.9000 V=34.8174
+2025-12-29 02:28:53,504 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:29:54,022 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T01:30:00 | O=2934.1000 H=2937.7500 L=2930.3400 C=2932.0400 V=222.6013
+2025-12-29 02:29:54,537 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:15:00 | O=2935.9500 H=2937.7500 L=2932.0400 C=2932.0400 V=35.0513
+2025-12-29 02:29:54,543 | INFO | Signal Generation | Bar=2025-12-29T02:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:30:55,082 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T02:30:00 | O=2932.1100 H=2932.3900 L=2932.1000 C=2932.3900 V=0.1146
+2025-12-29 02:30:55,262 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:30:00 | O=2932.1100 H=2932.3900 L=2932.1000 C=2932.3900 V=0.1146
+2025-12-29 02:30:55,262 | INFO | Signal Generation | Bar=2025-12-29T02:30:00 | Symbol=ETHUSDT | Signals=0
+2025-12-29 02:31:55,888 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T02:30:00 | O=2932.1100 H=2934.2700 L=2932.1000 C=2934.2700 V=2.4955
+2025-12-29 02:31:56,508 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T02:30:00 | O=2932.1100 H=2934.2700 L=2932.1000 C=2934.2700 V=2.4955
+2025-12-29 02:31:56,523 | INFO | Signal Generation | Bar=2025-12-29T02:30:00 | Symbol=ETHUSDT | Signals=0

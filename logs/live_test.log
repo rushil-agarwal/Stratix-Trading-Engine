@@ -1,0 +1,109 @@
+2025-12-28 16:56:17,560 | WARNING | numatix | Could not fetch account info: 401 Client Error: Unauthorized for url: https://testnet.binance.vision/api/v3/account?timestamp=1766921176669&signature=539e5277fc50eddcc6f5bd3a6a5f3de667e6cf2e3f55c1abd02b8c89ec83f983. Using default balance.
+2025-12-28 16:56:18,049 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T16:50:00 | O=2944.7000 H=2945.6100 L=2944.6300 C=2944.8300 V=5.1129
+2025-12-28 16:56:18,053 | INFO | numatix | Signal Generation | Bar=2025-12-28T16:50:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:00:04,938 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T16:55:00 | O=2945.1500 H=2945.3300 L=2944.3500 C=2945.3300 V=0.3758
+2025-12-28 17:00:04,954 | INFO | numatix | Signal Generation | Bar=2025-12-28T16:55:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:01:24,458 | INFO | numatix | Live loop interrupted by user
+2025-12-28 17:01:29,294 | WARNING | numatix | Could not fetch account info: 401 Client Error: Unauthorized for url: https://testnet.binance.vision/api/v3/account?timestamp=1766921488438&signature=1d90cffdf40080af11cd8010d65a7c2330eff6eea6c590c6cf06049e20af793c. Using default balance.
+2025-12-28 17:01:29,488 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T16:55:00 | O=2945.1500 H=2945.3300 L=2944.3500 C=2945.3300 V=0.3758
+2025-12-28 17:01:29,488 | INFO | numatix | Signal Generation | Bar=2025-12-28T16:55:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:02:42,452 | INFO | numatix | Live loop interrupted by user
+2025-12-28 17:10:32,364 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:05:00 | O=2944.6000 H=2944.6000 L=2941.2000 C=2941.2000 V=18.3018
+2025-12-28 17:10:32,364 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:05:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:15:05,114 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:10:00 | O=2941.2000 H=2941.5400 L=2940.0000 C=2941.5400 V=0.6024
+2025-12-28 17:15:05,114 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:10:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 17:15:05,590 | INFO | numatix | Order Placement | OrderID=12715725 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2941.54 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 17:15:05,590 | INFO | numatix | Order Fill | OrderID=12715725 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2941.54 | Status=FILLED | Timestamp=2025-12-28T17:15:05.590436
+2025-12-28 17:20:05,843 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:15:00 | O=2941.5400 H=2944.7500 L=2940.7100 C=2944.6500 V=27.0465
+2025-12-28 17:20:05,843 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:25:05,574 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:20:00 | O=2944.3400 H=2944.7400 L=2944.1400 C=2944.1400 V=3.0230
+2025-12-28 17:25:05,575 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:20:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:30:07,005 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:25:00 | O=2944.1500 H=2944.8900 L=2942.9000 C=2943.9600 V=17.1763
+2025-12-28 17:30:07,005 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:25:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:31:34,969 | INFO | numatix | Live loop interrupted by user
+2025-12-28 17:42:08,868 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:35:00 | O=2943.7400 H=2943.7400 L=2941.7800 C=2941.7800 V=1.3875
+2025-12-28 17:42:08,868 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:35:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:45:03,929 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:40:00 | O=2941.2900 H=2941.7700 L=2940.1600 C=2941.7700 V=17.1185
+2025-12-28 17:45:03,929 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:40:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 17:45:04,441 | INFO | numatix | Order Placement | OrderID=12717173 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2941.77 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 17:45:04,441 | INFO | numatix | Order Fill | OrderID=12717173 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2941.77 | Status=FILLED | Timestamp=2025-12-28T17:45:04.441187
+2025-12-28 17:50:03,979 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:45:00 | O=2941.7600 H=2941.7700 L=2940.4600 C=2940.4600 V=0.9055
+2025-12-28 17:50:03,979 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:45:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 17:55:03,870 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:50:00 | O=2940.1200 H=2942.4200 L=2940.1200 C=2942.4200 V=2.6129
+2025-12-28 17:55:03,872 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:50:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:00:06,840 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T17:55:00 | O=2943.0100 H=2943.0100 L=2943.0000 C=2943.0100 V=4.1294
+2025-12-28 18:00:06,840 | INFO | numatix | Signal Generation | Bar=2025-12-28T17:55:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:05:06,639 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:00:00 | O=2943.2900 H=2944.4800 L=2943.0000 C=2943.0100 V=10.1620
+2025-12-28 18:05:06,639 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:00:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:10:01,163 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:05:00 | O=2943.0100 H=2943.0100 L=2938.2000 C=2938.2100 V=6.1989
+2025-12-28 18:10:01,164 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:05:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:15:07,149 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:10:00 | O=2937.7900 H=2940.3000 L=2937.7900 C=2940.3000 V=1.4140
+2025-12-28 18:15:07,150 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:10:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:20:01,952 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:15:00 | O=2939.9700 H=2941.2100 L=2939.9700 C=2941.2000 V=2.8384
+2025-12-28 18:20:01,953 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:25:05,020 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:20:00 | O=2941.2100 H=2941.7900 L=2941.2000 C=2941.7900 V=6.4794
+2025-12-28 18:25:05,020 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:20:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 18:25:05,517 | INFO | numatix | Order Placement | OrderID=12718605 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2941.79 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 18:25:05,517 | INFO | numatix | Order Fill | OrderID=12718605 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2941.79 | Status=FILLED | Timestamp=2025-12-28T18:25:05.517224
+2025-12-28 18:41:52,672 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:35:00 | O=2940.7100 H=2943.3200 L=2939.0000 C=2939.0000 V=21.2012
+2025-12-28 18:41:52,674 | INFO | numatix | 'RandomDemoStrategy' object has no attribute 'rng'
+2025-12-28 18:42:17,002 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:35:00 | O=2940.7100 H=2943.3200 L=2939.0000 C=2939.0000 V=21.2012
+2025-12-28 18:42:17,002 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:35:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:45:06,721 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:40:00 | O=2938.9900 H=2941.3100 L=2938.9900 C=2941.3100 V=4.8095
+2025-12-28 18:45:06,721 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:40:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 18:45:07,215 | INFO | numatix | Order Placement | OrderID=12719634 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2940.86 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 18:45:07,215 | INFO | numatix | Order Fill | OrderID=12719634 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2940.86 | Status=FILLED | Timestamp=2025-12-28T18:45:07.215889
+2025-12-28 18:50:02,965 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:45:00 | O=2940.8500 H=2940.8600 L=2940.0000 C=2940.4900 V=5.1877
+2025-12-28 18:50:02,965 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:45:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 18:55:01,261 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:50:00 | O=2941.1300 H=2943.6700 L=2941.1000 C=2943.6700 V=11.6354
+2025-12-28 18:55:01,261 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:50:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 19:00:06,598 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T18:55:00 | O=2943.6800 H=2944.4500 L=2942.4900 C=2943.1600 V=9.7570
+2025-12-28 19:00:06,598 | INFO | numatix | Signal Generation | Bar=2025-12-28T18:55:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 19:05:03,266 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:00:00 | O=2942.6500 H=2943.5200 L=2942.4900 C=2942.4900 V=0.8528
+2025-12-28 19:05:03,266 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:00:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 19:10:02,997 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:05:00 | O=2942.1100 H=2944.8800 L=2942.1100 C=2943.8300 V=16.1874
+2025-12-28 19:10:02,998 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:05:00 | Symbol=ETHUSDT | Signals=1 | Signal: SELL 0.01 @ MARKET (reason=demo_sell)
+2025-12-28 19:10:03,491 | INFO | numatix | Order Placement | OrderID=12720854 | Symbol=ETHUSDT | Side=SELL | Size=0.01 | Price=2943.69 | Status=FILLED | FromSignal: reason=demo_sell
+2025-12-28 19:10:03,491 | INFO | numatix | Order Fill | OrderID=12720854 | Symbol=ETHUSDT | Side=SELL | FilledSize=0.01 | FillPrice=2943.69 | Status=FILLED | Timestamp=2025-12-28T19:10:03.491386
+2025-12-28 19:10:03,491 | INFO | numatix | Trade Completed | Direction=long | Symbol=ETHUSDT | Entry=2940.86 | Exit=2943.69 | Size=0.01 | PnL=0.028299999999999274 | Timestamp=2025-12-28T19:10:03.491386 | Metadata={"entry_order_id": "12719634", "exit_order_id": "12720854", "entry_signal_reason": "demo_buy", "exit_signal_reason": "demo_sell", "duration_seconds": 1496.275497}
+2025-12-28 19:15:06,462 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:10:00 | O=2943.7000 H=2943.7000 L=2941.7600 C=2941.9900 V=10.1145
+2025-12-28 19:15:06,462 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:10:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 19:15:06,646 | INFO | numatix | Order Placement | OrderID=12721070 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2942.18 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 19:15:06,646 | INFO | numatix | Order Fill | OrderID=12721070 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2942.18 | Status=FILLED | Timestamp=2025-12-28T19:15:06.646112
+2025-12-28 19:20:04,071 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:15:00 | O=2942.1800 H=2942.1800 L=2941.9800 C=2942.0000 V=2.4133
+2025-12-28 19:20:04,071 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:15:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 19:25:06,546 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:20:00 | O=2942.0000 H=2942.0000 L=2941.1000 C=2941.1000 V=6.2349
+2025-12-28 19:25:06,546 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:20:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 19:25:07,054 | INFO | numatix | Order Placement | OrderID=12721400 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2940.68 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 19:25:07,070 | INFO | numatix | Order Fill | OrderID=12721400 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2940.68 | Status=FILLED | Timestamp=2025-12-28T19:25:07.054193
+2025-12-28 19:30:02,264 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:25:00 | O=2940.6700 H=2940.6800 L=2939.7000 C=2940.5900 V=6.1742
+2025-12-28 19:30:02,264 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:25:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 19:35:07,723 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:30:00 | O=2940.1600 H=2944.0000 L=2939.9900 C=2944.0000 V=24.5798
+2025-12-28 19:35:07,723 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:30:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 19:40:02,731 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T19:35:00 | O=2944.0000 H=2944.0000 L=2942.5000 C=2943.6100 V=20.1758
+2025-12-28 19:40:02,732 | INFO | numatix | Signal Generation | Bar=2025-12-28T19:35:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 19:40:03,210 | INFO | numatix | Order Placement | OrderID=12722277 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2944.04 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 19:40:03,210 | INFO | numatix | Order Fill | OrderID=12722277 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2944.04 | Status=FILLED | Timestamp=2025-12-28T19:40:03.210038
+2025-12-28 20:46:35,671 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T20:40:00 | O=2952.6300 H=2957.1600 L=2952.6300 C=2955.6500 V=24.1279
+2025-12-28 20:46:35,695 | INFO | numatix | Signal Generation | Bar=2025-12-28T20:40:00 | Symbol=ETHUSDT | Signals=1 | Signal: BUY 0.01 @ MARKET (reason=demo_buy)
+2025-12-28 20:46:36,414 | INFO | numatix | Order Placement | OrderID=12727472 | Symbol=ETHUSDT | Side=BUY | Size=0.01 | Price=2956.08 | Status=FILLED | FromSignal: reason=demo_buy
+2025-12-28 20:46:36,421 | INFO | numatix | Order Fill | OrderID=12727472 | Symbol=ETHUSDT | Side=BUY | FilledSize=0.01 | FillPrice=2956.08 | Status=FILLED | Timestamp=2025-12-28T20:46:36.414991
+2025-12-28 20:50:04,853 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T20:45:00 | O=2956.8000 H=2958.3600 L=2956.0500 C=2956.0500 V=32.7575
+2025-12-28 20:50:04,862 | INFO | numatix | Signal Generation | Bar=2025-12-28T20:45:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 20:55:07,985 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T20:50:00 | O=2956.0400 H=2959.2100 L=2954.4900 C=2954.5000 V=32.5374
+2025-12-28 20:55:07,985 | INFO | numatix | Signal Generation | Bar=2025-12-28T20:50:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 21:00:03,418 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T20:55:00 | O=2954.5000 H=2956.7900 L=2954.4900 C=2954.8200 V=16.7184
+2025-12-28 21:00:03,418 | INFO | numatix | Signal Generation | Bar=2025-12-28T20:55:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 21:05:06,035 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T21:00:00 | O=2954.8200 H=2954.8300 L=2950.0500 C=2950.0500 V=13.5122
+2025-12-28 21:05:06,042 | INFO | numatix | Signal Generation | Bar=2025-12-28T21:00:00 | Symbol=ETHUSDT | Signals=0
+2025-12-28 21:10:06,251 | INFO | numatix | Market Data | Symbol=ETHUSDT | Timeframe=5m | Timestamp=2025-12-28T21:05:00 | O=2950.0400 H=2952.8000 L=2949.5700 C=2952.8000 V=6.9096
+2025-12-28 21:10:06,253 | INFO | numatix | Signal Generation | Bar=2025-12-28T21:05:00 | Symbol=ETHUSDT | Signals=1 | Signal: SELL 0.01 @ MARKET (reason=demo_sell)
+2025-12-28 21:10:06,858 | INFO | numatix | Order Placement | OrderID=12729231 | Symbol=ETHUSDT | Side=SELL | Size=0.01 | Price=2953.49 | Status=FILLED | FromSignal: reason=demo_sell
+2025-12-28 21:10:06,858 | INFO | numatix | Order Fill | OrderID=12729231 | Symbol=ETHUSDT | Side=SELL | FilledSize=0.01 | FillPrice=2953.49 | Status=FILLED | Timestamp=2025-12-28T21:10:06.858190
+2025-12-28 21:10:06,860 | INFO | numatix | Trade Completed | Direction=long | Symbol=ETHUSDT | Entry=2942.18 | Exit=2953.49 | Size=0.01 | PnL=0.11309999999999945 | Timestamp=2025-12-28T21:10:06.858190 | Metadata={"entry_order_id": "12721070", "exit_order_id": "12729231", "entry_signal_reason": "demo_buy", "exit_signal_reason": "demo_sell", "duration_seconds": 6900.212078}
+2025-12-28 21:16:30,978 | INFO | numatix | HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=5m&limit=2 (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2025-12-29 14:02:55,757 | INFO | Fetching historical data to initialize strategy indicators...
+2025-12-29 14:02:57,255 | INFO | Strategy initialized with 100 1h bars and 50 15m bars
+2025-12-29 14:02:57,965 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=1h | Timestamp=2025-12-29T13:30:00 | O=3019.0600 H=3025.9400 L=2791.0900 C=3022.3700 V=151.6560
+2025-12-29 14:02:58,468 | INFO | Market Data | Symbol=ETHUSDT | Timeframe=15m | Timestamp=2025-12-29T14:00:00 | O=3022.8700 H=3023.8700 L=3021.9900 C=3022.3700 V=16.3463
+2025-12-29 14:02:58,468 | INFO | Signal Generation | Bar=2025-12-29T14:00:00 | Symbol=ETHUSDT | Signals=0

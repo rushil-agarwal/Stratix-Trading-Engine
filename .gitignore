@@ -5,7 +5,4 @@ __pycache__/
 *.pyc
 .pytest_cache/
 *.pdf
-
-# Data and logs
-data/*.csv
-logs/*.log
+tests/
