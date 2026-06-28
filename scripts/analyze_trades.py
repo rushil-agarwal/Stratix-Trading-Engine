@@ -11,8 +11,16 @@ def calculate_pnl(df):
     if df.empty:
         return pd.DataFrame(), 0.0, 0
 
-    long_df = pd.DataFrame(columns=["entry_price", "size", "symbol"])
-    short_df = pd.DataFrame(columns=["entry_price", "size", "symbol"])
+    long_df = pd.DataFrame(columns=["entry_price", "size", "symbol"]).astype({
+        "entry_price": "float64",
+        "size": "float64",
+        "symbol": "object"
+    })
+    short_df = pd.DataFrame(columns=["entry_price", "size", "symbol"]).astype({
+        "entry_price": "float64",
+        "size": "float64",
+        "symbol": "object"
+    })
     trades = []
 
     last_price = df.iloc[-1]["price"]
@@ -38,7 +46,8 @@ def calculate_pnl(df):
                     "exit_price": price,
                     "size": close_size,
                     "pnl": pnl,
-                    "return": ret
+                    "return": ret,
+                    "timestamp": row.timestamp
                 })
 
                 short_df.at[short_df.index[0], "size"] -= close_size
@@ -67,7 +76,8 @@ def calculate_pnl(df):
                     "exit_price": price,
                     "size": close_size,
                     "pnl": pnl,
-                    "return": ret
+                    "return": ret,
+                    "timestamp": row.timestamp
                 })
 
                 long_df.at[long_df.index[0], "size"] -= close_size
@@ -102,12 +112,34 @@ def calculate_metrics(df, label, unrealized_pnl=0.0, total_orders=0):
             "largest_win_return": 0.0,
             "largest_loss_return": 0.0,
             "win_rate": 0.0,
+            "sharpe_ratio": 0.0,
+            "annualized_sharpe": 0.0,
         }
 
     has_wins = len(df.loc[df["pnl"] > 0]) > 0
     has_losses = len(df.loc[df["pnl"] < 0]) > 0
     
     win_rate = (len(df.loc[df["pnl"] > 0]) / len(df)) * 100 if len(df) > 0 else 0.0
+
+    sharpe_ratio = 0.0
+    annualized_sharpe = 0.0
+    if len(df) > 1:
+        returns = df["return"]
+        std_ret = returns.std()
+        if std_ret > 0:
+            sharpe_ratio = float(returns.mean() / std_ret)
+            if "timestamp" in df.columns:
+                try:
+                    timestamps = pd.to_datetime(df["timestamp"])
+                    time_span = timestamps.max() - timestamps.min()
+                    duration_days = time_span.total_seconds() / (24.0 * 3600.0)
+                    if duration_days > 0:
+                        trades_per_day = len(df) / duration_days
+                        annualized_sharpe = float(sharpe_ratio * np.sqrt(trades_per_day * 365))
+                    else:
+                        annualized_sharpe = sharpe_ratio
+                except Exception:
+                    annualized_sharpe = sharpe_ratio
 
     return {
         "label": label,
@@ -122,6 +154,8 @@ def calculate_metrics(df, label, unrealized_pnl=0.0, total_orders=0):
         "largest_win_return": df.loc[df["return"] > 0, "return"].max() * 100 if has_wins and "return" in df.columns else 0.0,
         "largest_loss_return": df.loc[df["return"] < 0, "return"].min() * 100 if has_losses and "return" in df.columns else 0.0,
         "win_rate": win_rate,
+        "sharpe_ratio": sharpe_ratio,
+        "annualized_sharpe": annualized_sharpe,
     }
 
 
@@ -140,6 +174,8 @@ def print_metrics(m):
         ("Average Return", f"{m['avg_return']:.4f}%"),
         ("Largest Win Return", f"{m['largest_win_return']:.4f}%"),
         ("Largest Loss Return", f"{m['largest_loss_return']:.4f}%"),
+        ("Sharpe Ratio", f"{m['sharpe_ratio']:.4f}"),
+        ("Annualized Sharpe", f"{m['annualized_sharpe']:.4f}"),
     ]:
         print(f"  {k:<22} {v}")
     print()
@@ -175,6 +211,16 @@ def main():
 
     print(f"{'Win Rate:':<25} {bt_wr:<20} {lv_wr:<20} {diff_wr:<20}")
     print(f"{'Avg Return:':<25} {bt_ret:<20} {lv_ret:<20} {diff_ret:<20}")
+    
+    bt_sr = f"{bt['sharpe_ratio']:.4f}"
+    lv_sr = f"{lv['sharpe_ratio']:.4f}"
+    diff_sr = f"{lv['sharpe_ratio'] - bt['sharpe_ratio']:.4f}"
+    print(f"{'Sharpe Ratio:':<25} {bt_sr:<20} {lv_sr:<20} {diff_sr:<20}")
+    
+    bt_asr = f"{bt['annualized_sharpe']:.4f}"
+    lv_asr = f"{lv['annualized_sharpe']:.4f}"
+    diff_asr = f"{lv['annualized_sharpe'] - bt['annualized_sharpe']:.4f}"
+    print(f"{'Annualized Sharpe:':<25} {bt_asr:<20} {lv_asr:<20} {diff_asr:<20}")
    
     print()
 

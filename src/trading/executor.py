@@ -19,6 +19,7 @@ from datetime import datetime
 from src.utils.data import write_trades
 from src.strategy.multi_tf import MultiTFStrategy
 from src.strategy.regime_aware import RegimeAwareMomentumStrategy
+from src.strategy.mean_reversion import MeanReversionStrategy
 from src.trading.exchange import BinanceClient
 
 class Executor:
@@ -208,7 +209,7 @@ if __name__ == "__main__":
     parser.add_argument("--start", type=str, help="Starttime for bt")
     parser.add_argument("--end", type=str, help="Endtime for bt")
     parser.add_argument("--symbol", type=str, default="ETHUSDT")
-    parser.add_argument("--strategy", choices=["multi_tf", "regime_aware"], default="multi_tf", help="Strategy to run")
+    parser.add_argument("--strategy", choices=["multi_tf", "regime_aware", "mean_reversion"], default="multi_tf", help="Strategy to run")
     parser.add_argument("--logfile", type=str, help="Path to log file in logs/", required = True)
 
     args = parser.parse_args()
@@ -218,6 +219,8 @@ if __name__ == "__main__":
 
     if args.strategy == "regime_aware":
         strategy = RegimeAwareMomentumStrategy({})
+    elif args.strategy == "mean_reversion":
+        strategy = MeanReversionStrategy({})
     else:
         strategy = MultiTFStrategy({})
 
