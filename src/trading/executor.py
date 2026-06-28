@@ -18,6 +18,7 @@ from src.backtesting.backtest import BacktestEngine
 from datetime import datetime
 from src.utils.data import write_trades
 from src.strategy.multi_tf import MultiTFStrategy
+from src.strategy.regime_aware import RegimeAwareMomentumStrategy
 from src.trading.exchange import BinanceClient
 
 class Executor:
@@ -52,7 +53,7 @@ class Executor:
         if hasattr(self.strategy, 'initialize_with_history'):
             self.logger.info(f"Fetching past data to prefill memory")
 
-            hist_1h = self.broker.get_historical_klines(symbol, "1h", limit=100)
+            hist_1h = self.broker.get_historical_klines(symbol, "1h", limit=200)
             hist_15m = self.broker.get_historical_klines(symbol, "15m", limit=50)
             
 
@@ -207,6 +208,7 @@ if __name__ == "__main__":
     parser.add_argument("--start", type=str, help="Starttime for bt")
     parser.add_argument("--end", type=str, help="Endtime for bt")
     parser.add_argument("--symbol", type=str, default="ETHUSDT")
+    parser.add_argument("--strategy", choices=["multi_tf", "regime_aware"], default="multi_tf", help="Strategy to run")
     parser.add_argument("--logfile", type=str, help="Path to log file in logs/", required = True)
 
     args = parser.parse_args()
@@ -214,7 +216,10 @@ if __name__ == "__main__":
     logger = setup_logger(level=20, logfile=args.logfile)
     config = load_config()
 
-    strategy = MultiTFStrategy({})
+    if args.strategy == "regime_aware":
+        strategy = RegimeAwareMomentumStrategy({})
+    else:
+        strategy = MultiTFStrategy({})
 
     if args.mode == "backtest":
         execr = Executor(strategy, logger=logger)
